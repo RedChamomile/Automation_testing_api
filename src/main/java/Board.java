@@ -1,18 +1,7 @@
-public class Board {
+public class Board extends Auth {
 
     private String name;
     private String id;
-
-    private String key = "";//put your key here
-    private String token = "";//put your token here
-
-    public String getKey() {
-        return key;
-    }
-
-    public String getToken() {
-        return token;
-    }
 
     public String getName() {
         return name;
